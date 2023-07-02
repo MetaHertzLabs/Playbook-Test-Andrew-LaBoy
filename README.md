@@ -18,7 +18,7 @@ FollowPosition.cs: A utility script that causes one object to continuously follo
 		
 Navigating the Project
 
-The main scene for this project is GimbalScene. This scene contains an example of how the Gimbal controller can be used. The Gimbal game object in the hierarchy has the Gimbal script attached to it, which controls all the transformations. This game object contains three child game objects: Rotation, Translation, and Scale. In the children of these objects are their respective handles for X, Y, and Z axes. has its respective AxisController attached.
+The main scene for this project is GimbalScene. This scene contains an example of how the Gimbal controller can be used. The Gimbal game object in the hierarchy has the Gimbal script attached to it, which controls all the transformations. This game object contains four child game objects, Controlled Object, Rotation, Translation, and Scale. In the children of all objects except Controlled Object are their respective handles for X, Y, and Z axes, each handle has its corresponding AxisController child class attached.
 
 Customization
 
